@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>casaroyal</title>
+
+	<!-- CDN de bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+
+<!-- Hacemos que cuando cargue el body se ejecute la funcion encargada de consultar la api y mostrar la informacion en pantalla -->
+<body onload="inicial()">
+	<header class="header">
+		<div class="header-top w-100">
+			<div class="header-top-left">
+				<div>
+					<span class="mx-3">1441 Market St, San Francisco</span>
+					<span class="mx-3">(123) 456-7890</span>
+					<span class="mx-3">Mon - Sun: 8:00am - 6:00pm</span>
+				</div>
+			</div> <!-- header-top-left END -->
+			<div class="header-top-right">
+				<div class="header-top-right-btn">
+					<a href="#">Login/Register</a>
+				</div>
+			</div> <!-- header-top-right END -->
+		</div> <!-- header-top END -->
+		<div class="header-bottom">
+			<div class="header-bottom-left">
+				<img src="img/log1.png" alt="" class="header-right-border-img">
+				<nav>
+					<ul class="header-nav-ul mb-0">
+						<li><a href="#">Homepage</a></li>
+						<li><a href="#">Properties</a></li>
+						<li><a href="#">Agencies</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- header-bottom-left END -->
+			<div class="header-bottom-right">
+				<a href="#" class="header-nav-style-link">Compare</a>
+				<div class="header-bottom-right-btn">
+					<a href="#">Submit listing</a>
+				</div>
+			</div> <!-- header-bottom-right END -->
+		</div> <!-- header-bottom END -->
+		<div class="header-hero">
+			<div class="container">
+				<h2>Let Us Guide You Home</h2>
+				<span class="hero-text">Find the house of your dreams</span>
+				<div class="hero-form-container">
+					<div class="hero-form-title w-25 pt-4 mt-1 pe-2">
+						<select id="selectType" class="input-select form-select hero-form-title h-100 fs-5 text-secondary border-0" aria-label="Default select example">
+							<option class="fs-5 hero-form-title option text-secondary" selected>Select type</option>
+							<option class="fs-5 text-secondary" value="casa">Casa</option>
+							<option class="fs-5 text-secondary" value="finca">Finca</option>
+							<option class="fs-5 text-secondary" value="apartamento">Apartamento</option>
+						</select>
+						
+					</div>
+					<input id="searchInput" class="w-50 hero-form-title fs-5 border-0" type="text" placeholder="  Searh for ubication city">
+					<button onclick="filtrar()" class="fs-6">Find properties</button>
+					<a class="ms-2" href="./favorites.html"><button id="fav" class="fs-6">go to favorites</button></a>
+				</div> <!-- hero-form-container END -->
+			</div> <!-- container END -->
+		</div> <!-- header-hero END -->
+	</header>
+	<main>
+		<div class="container">
+			<section class="centered-section mg-t-120">
+				<span class="before-title-span">Casaroyal real estate agency</span>
+				<h2 class="mg-b-88"><strong>Featured</strong> Properties</h2>
+				<div class="properties-cards" id="contenedorCards">
+
+					<!-- El contenido de este div se carga dinamicamente consultando la api de json server -->
+					
+				</div>
+				<div class="end-black-btn pd-tb-80">
+				</div>
+			</section>
+		</div>
+
+	</main>
+	
+	<!-- Mis scripts -->
+	<script src="./main.js"></script>
+
+	<!-- CDN de bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+	
+</body>
+
+</html>
+

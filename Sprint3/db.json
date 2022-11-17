@@ -1,0 +1,95 @@
+{
+  "casas": [
+    {
+      "id": "1",
+      "precio": "320.000 $",
+      "direccion": "Calle 58 # 60 - 04",
+      "ciudad": "Medellin",
+      "area": "200 m2",
+      "parqueadero": "2",
+      "baños": "3",
+      "habitaciones": "4",
+      "propietario": "Diana Bedoya",
+      "imagen": "./img/properties1.png",
+      "tipo": "casa",
+      "descripcion":"Esta es una casa muy bonita, esta recien pintada, tiene una excelente iluminación, espacio adecuado para los niños ¡una excelente propiedad!",
+      "estado": "arriendo"
+    },
+    {
+      "id": "2",
+      "precio": "420.000.000 $",
+      "direccion": "Vereda la linda",
+      "ciudad": "Barbosa",
+      "area": "100 m2",
+      "parqueadero": "1",
+      "baños": "2",
+      "habitaciones": "3",
+      "propietario": "Dolly Taborda",
+      "imagen": "./img/properties2.png",
+      "tipo": "Finca",
+      "descripcion":"Esta finca es hermosa, tiene una excelente vista, facil acceso a transporte, habitaciones amplias con muy buena iluminación",
+      "estado": "venta"
+    },
+    {
+      "id": "3",
+      "precio": "350.000 $",
+      "direccion": "cra 57 # 54-26",
+      "ciudad": "Bogotá",
+      "area": "300 m2",
+      "parqueadero": "4",
+      "baños": "3",
+      "habitaciones": "4",
+      "propietario": "Julieta Taborda",
+      "imagen": "./img/properties3.png",
+      "tipo": "apartamento",
+      "descripcion":"Este es un apartamento muy bonito y amplio, tiene espacio adecuado para niños y mascotas, buena iluminación y excelente vista",
+      "estado": "arriendo"
+    },
+    {
+      "id": "4",
+      "precio": "300.000 $",
+      "direccion": "Av. 102 # 58 - 24",
+      "ciudad": "Medellin",
+      "area": "230 m2",
+      "parqueadero": "1",
+      "baños": "2",
+      "habitaciones": "3",
+      "propietario": " Juan Toro",
+      "imagen": "./img/properties4.png",
+      "tipo": "casa",
+      "descripcion":"Esta casa tiene una excelente ubicación, habitaciones amplias, espacio adecuado para niños y mascotas, tiene acceso facil a transporte",
+      "estado": "venta"
+    },
+    {
+      "id": "5",
+      "precio": "200.000 $",
+      "direccion": "Av 80 # 56 - 84",
+      "ciudad": "Medellin",
+      "area": "100 m2",
+      "parqueadero": "2",
+      "baños": "3",
+      "habitaciones": "4",
+      "propietario": "Diego Ruiz",
+      "imagen": "./img/properties5.png",
+      "tipo": "casa",
+      "descripcion":"Esta es una casa muy bonita, esta recien pintada, tiene una excelente iluminación, espacio adecuado para los niños",
+      "estado": "arrienda"
+    },
+    {
+      "id": "6",
+      "precio": "190.000.000 $",
+      "direccion": "cra 58 # 65 - 02",
+      "ciudad": "Bogotá",
+      "area": "260 m2",
+      "parqueadero": "2",
+      "baños": "3",
+      "habitaciones": "4",
+      "propietario": "Diana Bedoya",
+      "imagen": "./img/properties6.png",
+      "tipo": "apartamento",
+      "descripcion":"Este excelente apartamento  se encuentra recien remodelado, tiene muy buena iluminación y espacio adecuado para niños y mascotas",
+      "estado": "venta"
+    }
+    
+  ]
+}
